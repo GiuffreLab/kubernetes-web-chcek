@@ -26,6 +26,8 @@ This project contains the Kubernetes manifests needed to deploy the **Web Check*
 
 ## Accessing the Application
 
+- If you do not modify the `service.yaml` file, you can access the application at `localhost:30006`
+
 - If you're using **port-forwarding**, you can access the application at `localhost:3000` by running:
   ```sh
   kubectl port-forward service/web-check-service 3000:3000 -n web-check

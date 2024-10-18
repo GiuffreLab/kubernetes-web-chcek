@@ -1,6 +1,6 @@
 # Web Check Kubernetes Deployment
 
-This project contains the Kubernetes manifests needed to deploy the **Web Check** application using a Deployment, Service, Namespace, and Customization configuration. The `web-check` container is based on the `lissy93/web-check` Docker image, which provides web status monitoring capabilities.
+This project contains the Kubernetes manifests needed to deploy the **Web Check** application using a Deployment, Service, Namespace, and Kustomization configuration. The `web-check` container is based on the `lissy93/web-check` Docker image, which provides web status monitoring capabilities.
 
 ## Additional Resources
 
